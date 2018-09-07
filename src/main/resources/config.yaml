@@ -1,0 +1,22 @@
+#Mongo Database setting
+---
+mongodb:
+  host: "127.0.0.1"
+  port: "27017"
+  masterdb: "master"
+
+#Master database access
+apiKeys:
+  - "2d958844-c111-4840-9b88-39f44ec9e47e"
+  - "3dcaa183-27e2-4b02-a458-8cfb1c38864b"
+
+#JWT Info
+JWT:
+  issuer: "Bheaver Inc"
+  subject: "NGL4"
+  ttlInMinutes: 30
+  keystorePath: "jwt.jks"
+  alias: "com.bheaver.ngl4"
+  keystoreSecret: "ngl4123"
+
+---
